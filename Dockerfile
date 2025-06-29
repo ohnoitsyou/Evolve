@@ -1,6 +1,6 @@
 # Global ARGs
-ARG BUILDER_IMAGE=node:16.20
-ARG NGINX_IMAGE=nginx:1.26.1-alpine
+ARG BUILDER_IMAGE=node:24-alpine
+ARG NGINX_IMAGE=nginx:alpine3.22
 ARG WORKSPACE=/workspace
 ARG WEB_PATH=/usr/share/nginx/html
 
